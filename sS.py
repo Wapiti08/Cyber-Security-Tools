@@ -9,6 +9,11 @@ PORT    STATE    SERVICE
 based on https://xael.org/pages/python-nmap-en.html
 '''
 
+'''
+Run $ python 100889405-syn.py 
+Please input the scan host and ports: 8.8.8.8 20-80
+'''
+
 import nmap
 from socket import *
 import sys
