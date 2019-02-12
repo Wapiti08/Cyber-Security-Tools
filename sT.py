@@ -10,6 +10,11 @@ PORT    STATE  SERVICE
 113/tcp closed auth
 '''
 
+'''
+Run $ python 100889405-connect.py -H 8.8.8.8 -p 25,23
+
+'''
+
 from threading import *
 import threading
 from socket import *
